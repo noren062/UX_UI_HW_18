@@ -177,10 +177,8 @@
 
 .aboutMe {
   position: absolute;
-  top: 2000px;
-  left: 2400;
-  top: 195%;
-  left: 10%;
+  top: 250%;
+  left: 16%;
 }
 
 .craft {
@@ -257,18 +255,17 @@
   margin-left: auto;
   margin-right: auto;
   top: 4400px;
-  transform: translate( 100%, -10%);
+  
 }
-
 .workBanner {
   width: 200%;
   height: 25%;
-  transform: translate(-46%, -30%);
+  transform: translate(18%, 40%);
 }
 .northPole {
     position: absolute;
-    left: -9%;
-    top: -9%;
+    left: 125%;
+    top: 2%;
     font-family: "Pacifico", "cursive";
     font-size: 60px;
 }
