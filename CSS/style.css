@@ -26,13 +26,16 @@
     padding-top: 50px;
     padding-bottom: 10px;
   }
-  .centered {
+
+.centered {
     position: absolute;
-    top: 30%;
+    top: 25%;
     left: 50%;
+    text-align: center;
     transform: translate(-50%, -50%);
     font-family: "Pacifico", "cursive";
     font-size: 60px;
+
   }
 
 .under {
@@ -52,7 +55,7 @@
   }
 .middle {
     position: absolute;
-    top: 12%;
+    top: 42%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: "Gentium Book Basic", "serif";
@@ -170,4 +173,79 @@
     height:257px;
     width:45%;
     background: lightgray;}
-      
+
+.aboutMe {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.craft {
+  position: relative;
+  width: 1323px;
+  height: 974.21px;
+  left: 5px;
+  top: 900px;
+}
+
+.amanda {
+  position: absolute;
+  top: 2100px;
+  left: 0px;
+  position: absolute;
+  width: 450px;
+  height: 610px;
+  left: 157px;
+  top: 1060px;
+  background: #FFFFFF;
+  border-radius: 45px;
+}
+
+.hotdog {
+  position: absolute;
+  width: 580px;
+  height: 79px;
+  left: 616px;
+  top: 978px;
+  font-family:"Pacifico", "cursive";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 112px;
+  text-align: center;
+  color: #000000;
+}
+
+.bio {
+position: absolute;
+width: 550px;
+height: 494px;
+left: 656px;
+top: 1156px;
+font-family: "Gentium Book Basic" , "serif";
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 29px;
+color: #000000;
+}
+
+.button2 {
+  position: absolute;
+  width: 256px;
+  height: 69px;
+  left: 780px;
+  top: 1672px;
+  color: black;
+  font-style:italic;
+  font-family: "Gentium Book Basic", "cursive";
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 46px;
+  border-radius: 45px;
+  background: rgba(139, 123, 68, 0.39);
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
