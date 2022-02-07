@@ -1,0 +1,173 @@
+#navBar {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 0px;
+    font-family: "Gentium Book Basic", "serif";
+    background-color: #7C3A2A;
+    color: white;
+    width: 100%;
+    padding: 20px;
+    font-size: 24px;
+  }
+  #navBar h1 {
+    width: 25%;
+    font-weight: 500;
+  }
+  #navigation {
+    display: flex;
+    width: 50%;
+    align-items: right;
+    justify-content: space-evenly;
+  }
+  .container {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 10px;
+  }
+  .centered {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Pacifico", "cursive";
+    font-size: 60px;
+  }
+
+.under {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Gentium Book Basic", "serif";
+    font-size: 21px;
+    padding: 30px;
+}
+.tupperware {
+    position: relative;
+    text-align: center;
+    color: black;
+    padding: 5px; 
+  }
+.middle {
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Gentium Book Basic", "serif";
+    font-size: 25px;
+    font-style: italic;
+}
+
+.heroImg {
+    position: relative;
+    text-align:left;
+    color: black;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+.bottomLeft {
+    position: absolute;
+    top: 80%;
+    left: 62px;
+    font-family: "Gentium Book Basic", "serif";
+    font-size: 30px;
+    width: 691px;
+    height: 225px;
+}
+.caseName {
+    position: relative;
+    text-align: center;
+    margin: 0px 0px;
+    background: #c8d0a3;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+    border-radius: 45px;
+    font-family: "Pacifico", "cursive";
+    color:black;
+    font-size: 52px;
+}
+.item1 { grid-area: client; }
+.item2 { grid-area: service; }
+.item3 { grid-area: summary; }
+.item4 { grid-area: role; }
+.item5 { grid-area: tools; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'client client service service summary summary'
+    'role role tools tools summary summary';
+  grid-gap: 10px;
+  background-color: #fff;
+  padding: 5px;
+  table-layout: fixed;
+  border-spacing: 0px;
+  margin-left: auto;
+  font-family: "Gentium Book Basic", "serif";
+  line-height: 1.5;
+  font-size: 24px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: left;
+  padding: 20px 30px;
+  }
+.box-collection {
+    position: relative;
+    text-align: left;
+    color: black;
+    padding: 5px; 
+    padding-top: 40px;
+    
+}
+.align {
+    position: absolute;
+    left: 150px;
+    top: 15px;
+    font-family: "Pacifico", "cursive";
+    font-size: 50px;
+    
+}
+.research-content1 {
+    position: absolute;
+    right: 15px;
+    top: 200x;
+    font-family: "Gentium Book Basic", "serif";
+    font-size: 25px;
+    height:593px;
+    width:45%;
+    background: lightgray;}
+.research-content2 {
+   margin-top: 50px;
+    position: absolute;
+    left: 15px;
+    top: 300x;
+    font-family: "Gentium Book Basic", "serif";
+    font-size: 25px;
+    height:155px;
+    width:45%;
+    background: lightgray;
+}
+.research-content3 {
+    position: absolute;
+    left: 15px;
+    top: 490px;
+    font-family: "Gentium Book Basic", "serif";
+    font-size: 25px;
+    height:593px;
+    width:45%;
+    background: lightgray;}
+
+.research-content4 {
+    position: absolute;
+    right: 15px;
+    top: 885px;
+    font-family: "Gentium Book Basic", "serif";
+    font-size: 25px;
+    height:257px;
+    width:45%;
+    background: lightgray;}
+      
