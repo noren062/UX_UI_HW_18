@@ -124,6 +124,7 @@
     color: black;
     padding: 5px; 
     padding-top: 40px;
+    width: 100%;
     
 }
 .align {
@@ -155,9 +156,9 @@
     background: lightgray;
 }
 .research-content3 {
-    position: absolute;
-    left: 15px;
-    top: 490px;
+    position: relative;
+    left: 10px;
+    top: 250px;
     font-family: "Gentium Book Basic", "serif";
     font-size: 25px;
     height:593px;
@@ -175,16 +176,18 @@
     background: lightgray;}
 
 .aboutMe {
-  position: relative;
-  top: 0;
-  left: 0;
+  position: absolute;
+  top: 2000px;
+  left: 2400;
+  top: 195%;
+  left: 10%;
 }
 
 .craft {
-  position: relative;
-  width: 1323px;
+  display: block;
+  position: absolute;
+  width: 1300px;
   height: 974.21px;
-  left: 5px;
   top: 900px;
 }
 
@@ -202,11 +205,11 @@
 }
 
 .hotdog {
-  position: absolute;
+  position: relative;
   width: 580px;
   height: 79px;
   left: 616px;
-  top: 978px;
+  top: 1008px;
   font-family:"Pacifico", "cursive";
   font-style: normal;
   font-weight: normal;
@@ -217,17 +220,17 @@
 }
 
 .bio {
-position: absolute;
-width: 550px;
-height: 494px;
-left: 656px;
-top: 1156px;
-font-family: "Gentium Book Basic" , "serif";
-font-style: normal;
-font-weight: normal;
-font-size: 25px;
-line-height: 29px;
-color: #000000;
+  position: relative;
+  width: 550px;
+  height: 494px;
+  left: 656px;
+  top: 1020px;
+  font-family: "Gentium Book Basic" , "serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 29px;
+  color: #000000;
 }
 
 .button2 {
@@ -245,7 +248,244 @@ color: #000000;
   border-radius: 45px;
   background: rgba(139, 123, 68, 0.39);
   border: none;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);}
+
+.workHeader {
+  display: block;
+  position: absolute;
+  height: 974.21px;
+  margin-left: auto;
+  margin-right: auto;
+  top: 4400px;
+  transform: translate( 100%, -10%);
 }
 
+.workBanner {
+  width: 200%;
+  height: 25%;
+  transform: translate(-46%, -30%);
+}
+.northPole {
+    position: absolute;
+    left: -9%;
+    top: -9%;
+    font-family: "Pacifico", "cursive";
+    font-size: 60px;
+}
+.flex-Container2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+/* I'm almost positive that container is doing absolutely nothing */
 
+
+  .mnDNRparent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  }
+
+  .DNRbkg {
+    position: absolute;
+    top: 4600px;
+    left: 10px;
+  }
+
+  .DNRimg {
+    position: absolute;
+    top: 4720px;
+    left: 40px;
+  }
+
+  .project1 {
+    position: relative;
+    top: 1700px;
+    left: 370px;
+  }
+
+.dnrTXT1 {
+  font-size: 42px;
+  font-style: italic;
+  background: #767474;
+  border: 1px solid #A88E8E;
+  box-sizing: border-box;
+  border-radius: 45px;
+  color: white;
+  height: 114px;
+  width: 503px;
+  overflow-wrap: normal;
+  padding-top: 10px;
+  padding-right: 5px;
+  text-align:center;
+  font-family:"Gentium Book Basic", "cursive";
+} 
+
+.dnrTXT2 {
+  text-align:left;
+  font-family:"Gentium Book Basic", "cursive";
+  font-size: 32px;
+  height: 297px;
+  width: 498px;
+}
+.View1 {
+  position: absolute;
+  top: 550px;
+  left: 195px;
+}
+
+.project2 {
+  position: absolute;
+  top: 5200px;
+  left: 2%;
+}
+.marsTXT1 {
+  font-size: 42px;
+  font-style: italic;
+  background: #767474;
+  border: 1px solid #A88E8E;
+  box-sizing: border-box;
+  border-radius: 45px;
+  color: white;
+  height: 114px;
+  width: 503px;
+  overflow-wrap: normal;
+  padding-top: 10px;
+  padding-right: 5px;
+  text-align:center;
+  font-family:"Gentium Book Basic", "cursive";
+  left: 20px;
+}
+.marsTXT2 {
+  position: absolute;
+  top: 5380px;
+  left: 4%;
+  text-align:left;
+  font-family:"Gentium Book Basic", "cursive";
+  font-size: 32px;
+  height: 297px;
+  width: 498px;
+  overflow-wrap: normal;
+}
+.View2 {
+  position: absolute;
+  top: 5780px;
+  left: 195px;
+}
+
+.marsParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  }
+.MARSbkg {
+    position: absolute;
+    top: 5270px;
+    left: 855px;
+  }
+
+.marsImg {
+    position: absolute;
+    top: 5390px;
+    left: 920px;
+  }
+
+  .project3 {
+    position: absolute;
+    top: 5900px;
+    left: 870px;
+  }
+
+  .rxTXT1 {
+  font-size: 42px;
+  font-style: italic;
+  background: #767474;
+  border: 1px solid #A88E8E;
+  box-sizing: border-box;
+  border-radius: 45px;
+  color: white;
+  height: 114px;
+  width: 503px;
+  overflow-wrap: normal;
+  padding-top: 10px;
+  padding-right: 5px;
+  text-align:center;
+  font-family:"Gentium Book Basic", "cursive";
+  }
+  .rxTXT2 {
+    position: absolute;
+    top: 190px;
+    left: 4%;
+    text-align:left;
+    font-family:"Gentium Book Basic", "cursive";
+    font-size: 32px;
+    height: 297px;
+    width: 498px;
+    overflow-wrap: normal;
+  }
+  .View3 {
+    position: absolute;
+    top: 560px;
+    left: 195px;
+  }
+  .foodrxParent {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .foodRXbkg {
+    position: absolute;
+    top: 5990px;
+    left: 15px;
+  }
+
+  .FXimg {
+    position: relative;
+    top: 6035px;
+    left: 165px;
+  }
+
+  .project4 {
+    position: absolute;
+    top: 6600px;
+    left: 25px;
+  }
+
+  .ffhTXT1 {
+    font-size: 42px;
+    font-style: italic;
+    background: #767474;
+    border: 1px solid #A88E8E;
+    box-sizing: border-box;
+    border-radius: 45px;
+    color: white;
+    height: 114px;
+    width: 503px;
+    overflow-wrap: normal;
+    padding-top: 10px;
+    padding-right: 5px;
+    text-align:center;
+    font-family:"Gentium Book Basic", "cursive";
+    }
+  .ffhTXT2 {
+    position: absolute;
+    top: 6790px;
+    left: 3%;
+    text-align:left;
+    font-family:"Gentium Book Basic", "cursive";
+    font-size: 32px;
+    height: 297px;
+    width: 495px;
+    overflow-wrap: normal;
+  }
+.View4 {
+    position: absolute;
+    top: 7240px;
+    left: 195px;
+}
+.ffHParent {
+  position: absolute;
+    top: 6640px;
+    left: 855px;
+}
