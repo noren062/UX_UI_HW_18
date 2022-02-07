@@ -248,6 +248,8 @@
   border: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);}
 
+/* no idea why its floating in the middle like that, it looks normal using local? */
+
 .workHeader {
   display: block;
   position: absolute;
@@ -487,9 +489,13 @@
     left: 855px;
 }
 
-/* On screens that are 600px or less, set the background color to olive */
+/* On screens that are 600px or less, set the background color to wheat */
 @media screen and (max-width: 600px) {
   body {
     background-color: wheat;
   }
 }
+/* this also isn't working on github, but i'm okay with that */
+
+/* everything is so big!!!!! will fix later on */
+
